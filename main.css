@@ -1,0 +1,80 @@
+/* CSS for body tag */
+body{
+    /* Chages display type */
+    display: grid;
+    grid-template-rows: auto;
+    /* Changes body background color */
+    background-color: rgb(255, 253, 243);
+    /* Changes font of text */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* CSS for header tag */
+header{
+    /* Assigns grid-row 1 */
+    grid-row: 1;
+    /* Aligns text to center */
+    text-align: center;
+    /* Creates background gradient for header */
+    background: linear-gradient(to top, rgb(80, 32, 39), rgb(233, 233, 233));
+    /* Changes text color for header */
+    color: rgb(233, 233, 233);
+}
+
+/* CSS for one class */
+.one{
+    /* Assigns grid-row 2 */
+    grid-row: 2;
+}
+
+/* CSS for two class */
+.two{
+    /* Assigns grid-row 3 */
+    grid-row: 3;
+}
+
+/* CSS for three class */
+.three{
+    /* Assigns grid-row 4 */
+    grid-row: 4;
+    /* Adds padding to the bottom of section */
+    padding-bottom: 10px;
+}
+
+/* CSS for footer tags */
+footer{
+    /* Assigns grid-row 5 */
+    grid-row: 5;
+    /* Aligns text to center */
+    text-align: center;
+    /* Changes background color for footer */
+    background-color: rgb(80, 32, 39);
+    /* Changes text color for footer */
+    color: rgb(233, 233, 233);
+}
+
+/* CSS for disclaimer class */
+.disclaimer{
+    /* Changes text to italic */
+    font-style: italic;
+}
+
+/* CSS for title class */
+.title{
+    /* Changes text to bold for title class objects */
+    font-weight: bold;
+}
+
+/* CSS for img tag */
+img{
+    /* Changes width of image */
+    width: 235px;
+    /* CHanges height of imafe */
+    height: 350px;
+    /* Aligns image to the left, allowing text to be displayed on the right */
+    float: left;
+    /* Adds spacing in between the image and text */
+    margin-right: 7px;
+    /* Rounds top-right and bottom-right corners on images */
+    border-radius: 0px 10px 10px 0px;
+}
